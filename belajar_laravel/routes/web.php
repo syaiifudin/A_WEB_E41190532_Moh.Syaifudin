@@ -19,3 +19,7 @@ Route::get('/', function () {
 
 Route:: resource('user', 'App\Http\Controllers\ManagementUserController');
 
+Route::get("/home", function(){
+    return view("home");
+});
+

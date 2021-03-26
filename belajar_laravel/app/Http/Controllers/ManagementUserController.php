@@ -6,12 +6,17 @@ use Illuminate\Http\Requests;
 
 class ManagementuserController extends Controller{
 
-    public function index(){
+  public function index(){
        // return"Halo ini adalah method index, dalam Controller Management User.";
-        return"Method ini nantinya akan digunakan untuk mengambil semua data user";
+       // return"Method ini nantinya akan digunakan untuk mengambil semua data user";
+       $nama = "Moh. Syaifudin";
+
+       $pelajaran = ["Algoritma & Pemrograman", "Kalkulus", "Pemrograman Web"];
+
+       return view('home', compact('nama', 'pelajaran'));
     }
 
-    public function create(){
+ /*    public function create(){
         return "Method ini nantinya akan digunakan untuk menampilkan form untuk menambah data user";
     }
     public function store(Request $_request){
@@ -28,5 +33,5 @@ class ManagementuserController extends Controller{
     }
     public function destroy($id){
         return "Method ini nantinya digunakan untuk menghapus data user dengan id=". $id;
-    }
+    }*/
 }

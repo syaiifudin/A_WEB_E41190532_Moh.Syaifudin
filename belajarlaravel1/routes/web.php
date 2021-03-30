@@ -16,7 +16,13 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
 Route::group(['namespace'=> 'Frontend'], function()
-    {
-        Route::resource('home', 'HomeController');
-    });
+{
+    Route::resource('home', 'HomeController');
+});
+
+Route::group(['namespace'=> 'Backend'], function()
+{
+    Route::resource('dashboard', 'DashboardController');
+});

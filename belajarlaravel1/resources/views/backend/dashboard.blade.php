@@ -141,7 +141,7 @@
                   </thead>
                   <tbody>
                     <tr>
-                      <td><img src="img/Germany.png" style="height:18px; margin-top:-2px;"></td>
+                      <td><img src="{{ asset('backend/img/Germany.png')}}" style="height:18px; margin-top:-2px;"></td>
                       <td>Germany</td>
                       <td>2563</td>
                       <td>1025</td>
@@ -156,7 +156,7 @@
                       </td>
                     </tr>
                     <tr>
-                      <td><img src="img/India.png" style="height:18px; margin-top:-2px;"></td>
+                      <td><img src="{{ asset('backend/img/India.png')}}" style="height:18px; margin-top:-2px;"></td>
                       <td>India</td>
                       <td>3652</td>
                       <td>2563</td>
@@ -171,7 +171,7 @@
                       </td>
                     </tr>
                     <tr>
-                      <td><img src="img/Spain.png" style="height:18px; margin-top:-2px;"></td>
+                      <td><img src="{{ asset('backend/img/Spain.png')}}" style="height:18px; margin-top:-2px;"></td>
                       <td>Spain</td>
                       <td>562</td>
                       <td>452</td>
@@ -186,7 +186,7 @@
                       </td>
                     </tr>
                     <tr>
-                      <td><img src="img/India.png" style="height:18px; margin-top:-2px;"></td>
+                      <td><img src="{{ asset('backend/img/India.png')}}" style="height:18px; margin-top:-2px;"></td>
                       <td>Russia</td>
                       <td>1258</td>
                       <td>958</td>
@@ -201,7 +201,7 @@
                       </td>
                     </tr>
                     <tr>
-                      <td><img src="img/Spain.png" style="height:18px; margin-top:-2px;"></td>
+                      <td><img src="{{ asset('backend/img/Spain.png')}}" style="height:18px; margin-top:-2px;"></td>
                       <td>USA</td>
                       <td>4856</td>
                       <td>3621</td>
@@ -216,7 +216,7 @@
                       </td>
                     </tr>
                     <tr>
-                      <td><img src="img/Germany.png" style="height:18px; margin-top:-2px;"></td>
+                      <td><img src="{{ asset('backend/img/Germany.png')}}" style="height:18px; margin-top:-2px;"></td>
                       <td>Brazil</td>
                       <td>265</td>
                       <td>102</td>
@@ -231,7 +231,7 @@
                       </td>
                     </tr>
                     <tr>
-                      <td><img src="img/Germany.png" style="height:18px; margin-top:-2px;"></td>
+                      <td><img src="{{ asset('backend/img/Germany.png')}}" style="height:18px; margin-top:-2px;"></td>
                       <td>Coloumbia</td>
                       <td>265</td>
                       <td>102</td>
@@ -246,7 +246,7 @@
                       </td>
                     </tr>
                     <tr>
-                      <td><img src="img/Germany.png" style="height:18px; margin-top:-2px;"></td>
+                      <td><img src="{{ asset('backend/img/Germany.png')}}" style="height:18px; margin-top:-2px;"></td>
                       <td>France</td>
                       <td>265</td>
                       <td>102</td>
@@ -372,7 +372,7 @@
                     <li class="by-other">
                       <!-- Use the class "pull-right" in avatar -->
                       <div class="avatar pull-right">
-                        <img src="img/user22.png" alt="" />
+                        <img src="{{ asset('backend/img/user22.png')}}" alt="" />
                       </div>
 
                       <div class="chat-content">
@@ -385,7 +385,7 @@
 
                     <li class="by-me">
                       <div class="avatar pull-left">
-                        <img src="img/user.jpg" alt="" />
+                        <img src="{{ asset('backend/img/user.jpg')}}" alt="" />
                       </div>
 
                       <div class="chat-content">
@@ -398,7 +398,7 @@
                     <li class="by-other">
                       <!-- Use the class "pull-right" in avatar -->
                       <div class="avatar pull-right">
-                        <img src="img/user22.png" alt="" />
+                        <img src="{{ asset('backend/img/user22.png')}}" alt="" />
                       </div>
 
                       <div class="chat-content">
